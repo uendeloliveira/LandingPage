@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --cor-primaria: #00c3ff;
+    --cor-secundaria: #3b3b3b;
+    --cor-texto: #fff;
+}
+  
+  * {
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+  }
+  
+  #form-inscricao-evento {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("../img/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--cor-texto);
+  }
+  
+  #aviso-legal h2,
+  #aviso-legal .data-evento {
+    color: var(--cor-primaria);
+  }
+  
+  #aviso-legal h2 {
+    font-size: 3em;
+    margin-bottom: 1em;
+  }
+  
+  #aviso-legal .sobre-evento {
+    font-size: 2em;
+    text-transform: uppercase;
+    max-width: 350px;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  
+  #aviso-legal p {
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    font-weight: 100;
+  }
+  
+  #aviso-legal .data-evento {
+    font-weight: bold;
+  }
+  
+  #formulario-inscricao {
+    background-color: var(--cor-secundaria);
+    padding: 2em;
+    max-width: 22%;
+  }
+  
+  #formulario-inscricao p {
+    font-size: 1.5em;
+    color: var(--cor-texto);
+    margin-bottom: 1em;
+  }
+  
+  .grupo-formulario {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8em;
+  }
+  
+  .grupo-formulario label {
+    color: var(--cor-texto);
+    margin-bottom: 0.3em;
+    font-weight: bold;
+  }
+  
+  .grupo-formulario input,
+  .grupo-formulario select {
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  .botao {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto);
+    text-transform: uppercase;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
+  .botao:hover {
+    opacity: 1;
+  }
+  
+  #beneficios h2 {
+    color: var(--cor-texto);
+    background-color: var(--cor-secundaria);
+    text-align: center;
+    padding: 2em;
+    font-weight: 500;
+  }
+  
+  .lista-beneficios {
+    display: flex;
+    justify-content: space-around;
+    padding: 4em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .beneficio {
+    text-align: center;
+    max-width: 250px;
+  }
+  
+  .beneficio p {
+    margin-top: 1em;
+    font-size: 1.1em;
+    font-weight: 100;
+  }
+  
+  .imagem-beneficio {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+  }
+  
+  .beneficio-1 {
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+  }
+  
+  .beneficio-2 {
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+  }
+  
+  .beneficio-3 {
+    background-image: url("../img/img4.jpg");
+    background-size: cover;
+  }
+  
+  #localizacao {
+    height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../img/img2.jpg");
+
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--cor-texto);
+  margin-bottom: 3em;
+  }
+  
+  #endereco {
+    display: flex;
+    align-items: center;
+  }
+  
+  #endereco i {
+    font-size: 2em;
+    margin-right: 1em;
+  }
+  
+  #detalhes-endereco p {
+    margin-bottom: 0.5em;
+  }
+  
+  #detalhes-endereco .endereco {
+    font-weight: bold;
+  }
+  
+  #sobre-local {
+    max-width: 30%;
+  }
+  #sobre-local h3 {
+    margin-bottom: 1em;
+  }
+  
+  #detalhes {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .detalhe {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+  }
+  
+  .detalhe img {
+    width: 80%;
+    height: 600px;
+  }
+  
+  .detalhe h3 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  #detalhe-1 h3 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+
+  #detalhe-2 h3 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  
+  .detalhe-description {
+    width: 100%;
+    padding-left: 2em;
+  }
+  
+  #cta {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url("../img/img3.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor-texto);
+  }
+  
+  #cta h3 {
+    margin-bottom: 1.2em;
+    font-size: 2em;
+    font-weight: 500;
+  }
+  
+  #cta .btn {
+    width: 30%;
+    height: 20%;
+    background-color: var(--cor-primaria);
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-texto);
+    cursor: pointer;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.2em;
+    opacity: 0.9;
+  }
+
+  #cta .btn:hover{
+    opacity: 1;
+  }
+  
+  #footer {
+    background-color: var(--cor-secundaria);
+    padding: 1em 0;
+    text-align: center;
+    color: var(--cor-texto);
+    font-size: 1.2em;
+  }
+  
